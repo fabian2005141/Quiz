@@ -151,14 +151,14 @@ button {
 function auswerten() {
     let punkte = 0;
 
-    for(let i = 1; i <= 10; i++) {
+    for(let i = 1; i <= 11; i++) {
         const antwort = document.querySelector(`input[name="q${i}"]:checked`);
         if(antwort && antwort.value === "1") {
             punkte++;
         }
     }
 
-    let text = `🏆 Du hast ${punkte} von 10 Punkten erreicht!`;
+    let text = `🏆 Du hast ${punkte} von 11 Punkten erreicht!`;
 
     if(punkte === 10) {
         text += "<br>🌟 Perfekt!";
