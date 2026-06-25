@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weltrekorde Quiz</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #f4f4f4;
+    }
+
+
+h1 {
+    text-align: center;
+}
+
+.frage {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#ergebnis {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>🌍 Weltrekorde Quiz 🏆</h1>
+
+<form id="quiz">
+
+<div class="frage">
+<p><b>1. Welcher Berg ist der höchste der Welt?</b></p>
+<label><input type="radio" name="q1" value="1"> Mount Everest</label><br>
+<label><input type="radio" name="q1" value="0"> K2</label><br>
+<label><input type="radio" name="q1" value="0"> Kilimandscharo</label><br>
+<label><input type="radio" name="q1" value="0"> Mont Blanc</label>
+</div>
+
+<div class="frage">
+<p><b>2. Welches Tier ist das schnellste an Land?</b></p>
+<label><input type="radio" name="q2" value="0"> Löwe</label><br>
+<label><input type="radio" name="q2" value="1"> Gepard</label><br>
+<label><input type="radio" name="q2" value="0"> Antilope</label><br>
+<label><input type="radio" name="q2" value="0"> Strauß</label>
+</div>
+
+<div class="frage">
+<p><b>3. Wie lang war der längste jemals gemessene Blitz?</b></p>
+<label><input type="radio" name="q3" value="0"> 120 km</label><br>
+<label><input type="radio" name="q3" value="0"> 350 km</label><br>
+<label><input type="radio" name="q3" value="1"> 768 km</label><br>
+<label><input type="radio" name="q3" value="0"> 1200 km</label>
+</div>
+
+<div class="frage">
+<p><b>4. Welches Bauwerk ist derzeit das höchste der Welt?</b></p>
+<label><input type="radio" name="q4" value="0"> Eiffelturm</label><br>
+<label><input type="radio" name="q4" value="0"> Shanghai Tower</label><br>
+<label><input type="radio" name="q4" value="1"> Burj Khalifa</label><br>
+<label><input type="radio" name="q4" value="0"> One World Trade Center</label>
+</div>
+
+<div class="frage">
+<p><b>5. Welcher Ozean ist der größte der Erde?</b></p>
+<label><input type="radio" name="q5" value="0"> Atlantik</label><br>
+<label><input type="radio" name="q5" value="1"> Pazifik</label><br>
+<label><input type="radio" name="q5" value="0"> Indischer Ozean</label><br>
+<label><input type="radio" name="q5" value="0"> Arktischer Ozean</label>
+</div>
+
+<div class="frage">
+<p><b>6. Welches Tier ist das größte der Welt?</b></p>
+<label><input type="radio" name="q6" value="0"> Afrikanischer Elefant</label><br>
+<label><input type="radio" name="q6" value="0"> Pottwal</label><br>
+<label><input type="radio" name="q6" value="1"> Blauwal</label><br>
+<label><input type="radio" name="q6" value="0"> Giraffe</label>
+</div>
+
+<div class="frage">
+<p><b>7. Welches Land hat die größte Bevölkerung?</b></p>
+<label><input type="radio" name="q7" value="0"> USA</label><br>
+<label><input type="radio" name="q7" value="1"> Indien</label><br>
+<label><input type="radio" name="q7" value="0"> China</label><br>
+<label><input type="radio" name="q7" value="0"> Indonesien</label>
+</div>
+
+<div class="frage">
+<p><b>8. Wie tief ist die tiefste bekannte Stelle der Ozeane ungefähr?</b></p>
+<label><input type="radio" name="q8" value="0"> 5.000 m</label><br>
+<label><input type="radio" name="q8" value="0"> 8.000 m</label><br>
+<label><input type="radio" name="q8" value="1"> 11.000 m</label><br>
+<label><input type="radio" name="q8" value="0"> 15.000 m</label>
+</div>
+
+<div class="frage">
+<p><b>9. Welches Fahrzeug war das erste, das schneller als 1.000 km/h fuhr?</b></p>
+<label><input type="radio" name="q9" value="0"> ThrustSSC II</label><br>
+<label><input type="radio" name="q9" value="1"> ThrustSSC</label><br>
+<label><input type="radio" name="q9" value="0"> Bloodhound SSC</label><br>
+<label><input type="radio" name="q9" value="0"> Bluebird CN7</label>
+</div>
+
+<div class="frage">
+<p><b>10. Wie laut war der lauteste Rülpser der Welt</b></p>
+<label><input type="radio" name="q9" value="0"> 150,5 db</label><br>
+<label><input type="radio" name="q9" value="0"> 100 db</label><br>
+<label><input type="radio" name="q9" value="1"> 112,4 db</label><br>
+<label><input type="radio" name="q9" value="0"> 200,5 db</label>
+</div>
+
+
+
+<div class="frage">
+<p><b>11. Welcher Fluss ist der längste der Welt?</b></p>
+<label><input type="radio" name="q10" value="0"> Mississippi</label><br>
+<label><input type="radio" name="q10" value="0"> Jangtse</label><br>
+<label><input type="radio" name="q10" value="1"> Nil</label><br>
+<label><input type="radio" name="q10" value="0"> Donau</label>
+</div>
+
+</form>
+
+<button onclick="auswerten()">Quiz auswerten</button>
+
+<div id="ergebnis"></div>
+
+<script>
+function auswerten() {
+    let punkte = 0;
+
+    for(let i = 1; i <= 10; i++) {
+        const antwort = document.querySelector(`input[name="q${i}"]:checked`);
+        if(antwort && antwort.value === "1") {
+            punkte++;
+        }
+    }
+
+    let text = `🏆 Du hast ${punkte} von 10 Punkten erreicht!`;
+
+    if(punkte === 10) {
+        text += "<br>🌟 Perfekt!";
+    } else if(punkte >= 7) {
+        text += "<br>👍 Sehr gut!";
+    } else if(punkte >= 5) {
+        text += "<br>🙂 Gut gemacht!";
+    } else {
+        text += "<br>📚 Da geht noch mehr!";
+    }
+
+    document.getElementById("ergebnis").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
